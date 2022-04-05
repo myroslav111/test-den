@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\фриланс\\fls_start_gulp_patrones"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "test-den"
+	}
+}
