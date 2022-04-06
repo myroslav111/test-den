@@ -8,8 +8,18 @@ p{
     max-width: 790px;
     display: flex;
     flex-wrap: wrap;
-
+    
+    
+    
 }
+
+.hidden{
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transform: translateY(-110%);
+}
+
+
 .test__table__data {
     padding: 8px;
     min-width: 260px;
@@ -22,16 +32,25 @@ p{
     border: 1px solid black;
 }
 .containerr{
-    outline: 1px solid red;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /* outline: 1px solid red; */
 }
 
 .up{
     margin-right: 5px;
+    cursor: pointer;
 }
 .down{
     margin-right: 5px;
+    cursor: pointer;
 }
-
+.btn{
+    background-color: inherit;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+}
 /* .resp-tab {
     border-radius: 5px;
     font-weight: normal;
