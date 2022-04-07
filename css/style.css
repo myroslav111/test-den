@@ -1,38 +1,36 @@
 body{
     padding: 5px;
 }
+
 p{
     margin: 0px;
 }
+
 .new{
     display: flex;
     flex-wrap: wrap;
-
 }
+
 .ssss{
     margin-bottom: 15px;
     overflow: hidden;
 }
+
 .test__task {
     max-width: 790px;
     display: flex;
     flex-wrap: wrap;
-    
-    /* text-decoration: dashed */
-    
 }
-/* .input:focus{
-    border-bottom: 1px dashed black;
-} */
 
 .input{
-
+    background-color: inherit;
     outline: none;
     margin: 0;
     border: inherit;
 }
+
 .underline{
-    border-bottom: dashed black;
+    border-bottom: 1px dashed black;
 }
 
 .hidden{
@@ -40,7 +38,6 @@ p{
     transition-duration: 250ms;
     transform: translateY(-110%);
 }
-
 
 .test__table__data {
     padding: 8px;
@@ -50,28 +47,17 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
     border: 1px solid black;
-}
-.containerr {
-    margin-bottom: 15px;
-    overflow: hidden;
-    /* outline: 1px solid red; */
 }
 
 .up{
     margin-right: 5px;
     cursor: pointer;
 }
+
 .down{
     margin-right: 5px;
     cursor: pointer;
-}
-.btn{
-    background-color: inherit;
-    border: none;
-    color: blue;
-    text-decoration: underline;
 }
 
 .btn1{
