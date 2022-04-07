@@ -4,6 +4,15 @@ body{
 p{
     margin: 0px;
 }
+.new{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ssss{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
 .test__task {
     max-width: 790px;
     display: flex;
@@ -12,9 +21,18 @@ p{
     /* text-decoration: dashed */
     
 }
+/* .input:focus{
+    border-bottom: 1px dashed black;
+} */
 
+.input{
+
+    outline: none;
+    margin: 0;
+    border: inherit;
+}
 .underline{
-    text-decoration: underline;
+    border-bottom: dashed black;
 }
 
 .hidden{
@@ -35,7 +53,7 @@ p{
  
     border: 1px solid black;
 }
-.containerr{
+.containerr {
     margin-bottom: 15px;
     overflow: hidden;
     /* outline: 1px solid red; */
@@ -55,68 +73,10 @@ p{
     color: blue;
     text-decoration: underline;
 }
-/* .resp-tab {
-    border-radius: 5px;
-    font-weight: normal;
+
+.btn1{
+    background-color: inherit;
     border: none;
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 100%;
+    color: blue;
+    text-decoration: underline;
 }
-.resp-tab th, .resp-tab td {
-    padding: 10px 20px;
-    font-size: 13px;
-    border: none;
-    font-family: Verdana, sans-serif;   
-    border: 1px solid #337AB7;
-    vertical-align: top;
-}
-.resp-tab th {
-    color: #FFF;
-    background: #337AB7;
-    font-weight: bold;
-    border: 1px solid #1a4a73;   
-    text-transform: uppercase;   
-    text-align: center;   
-}
-.resp-tab tr:nth-child(even) {
-    background: #edf7ff;
-}
-.resp-tab td span {
-    background: #337AB7;
-    color: #FFF;
-    display: none;
-    font-size: 11px;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;   
-    text-transform: uppercase;       
-    padding: 5px 10px;
-    position: absolute;
-    top: 0;
-    left: 0;   
-}
-@media(max-width: 768px) {
-    .resp-tab thead {
-        display: none;
-    }
-    .resp-tab tr {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 30px;
-    }
-    .resp-tab td {
-        margin: 0 -1px -1px 0;
-        padding-top: 35px;
-        position: relative;
-        width: 50%;
-    }
-    .resp-tab td span {
-        display: block;
-    }
-}
-@media(max-width: 480px) {
-    .resp-tab td {
-        width: 100%;
-    }
-} */
