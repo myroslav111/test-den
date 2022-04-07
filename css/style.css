@@ -9,8 +9,12 @@ p{
     display: flex;
     flex-wrap: wrap;
     
+    /* text-decoration: dashed */
     
-    
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .hidden{
